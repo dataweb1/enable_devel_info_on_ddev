@@ -1,0 +1,6 @@
+services:
+  enable_devel_info_on_ddev.custom_current_user:
+    class: Drupal\enable_devel_info_on_ddev\Proxy\CustomCurrentUser
+    decorates: current_user
+    decoration_priority: 100
+    arguments: ['@enable_devel_info_on_ddev.custom_current_user.inner']

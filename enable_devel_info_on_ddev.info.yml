@@ -1,0 +1,8 @@
+name: Enable Devel Info on DDEV
+type: module
+description: Enable Devel Info on DDEV whatever the perms are. (for e.g. dpm())
+core: 8.x
+package: dw
+core_version_requirement: ^10
+dependencies:
+  - drupal:devel

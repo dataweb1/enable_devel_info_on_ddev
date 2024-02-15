@@ -1,0 +1,23 @@
+{
+    "name": "dataweb1/enable_devel_info_on_ddev",
+    "description": "Drupal module that enables Devel Info on DDEV whatever the perms are. (for e.g. dpm())",
+    "type": "drupal-module",
+    "homepage": "https://github.com/dataweb1/enable_devel_info_on_ddev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://www.drupal.org/about/10"
+        }
+    ],
+    "require": {
+        "drupal/devel": "^5.1"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Bert Jansen",
+            "email": "bert@data-web.be",
+            "role": "Owner"
+        }
+    ]
+}
